@@ -1,0 +1,78 @@
+/*************************
+    - Basic settings -
+*************************/
+.circular-countdown * {
+	margin:0;
+	padding:0;
+}
+
+.circular-countdown .time {
+    position:relative;
+	float:left; 
+ }
+
+/*****************
+    - Canvas -
+*****************/
+.circular-countdown canvas.bg {
+	position:absolute;	
+	z-index:1;
+}
+
+.circular-countdown canvas.circle {
+	position:relative;
+    z-index:2;
+}
+
+/****************
+    - Count -
+****************/
+.circular-countdown .count {
+    position:absolute;
+	z-index:3;
+	top:0;
+	left:0;
+    text-align:center;
+    color:#333;
+   	font-family:"Open Sans", sans-serif;
+	font-weight:600;
+	font-size:30px;
+	line-height:30px;
+}
+
+/***************
+    - Text -
+***************/
+.circular-countdown .text {
+    position:absolute;
+	z-index:4;
+	top:0;
+	left:0;
+    text-align:center;
+    color:#5f5f5f;
+   	font-family:"Open Sans", sans-serif;
+	font-weight:400;
+	font-size:14px;
+	line-height:14px;
+}
+
+.inner {
+max-width: 960px;
+margin: 0 auto;
+padding: 10px 10px
+}
+.dark-wrapper.pink .inner {
+	width:640px;	
+}
+.clearfix:after {
+	content:"."; 
+	visibility:hidden;
+	display:block; 
+	clear:both; 
+	height:0; 
+	font-size:0;
+}
+
+.dark-wrapper.price .inner {
+	width:400px;
+	}

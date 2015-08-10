@@ -1,0 +1,731 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Kranky Geek WebRTC Event</title>
+    <meta name="description" content="Kranky Geek WebRTC Show">
+    <meta name="keywords" content="webrtc, webrtc event">
+    <meta name="author" content="Chris Koehncke">
+
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.jpg">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.jpg">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.jpg">
+
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,700' rel='stylesheet' type='text/css'>
+    
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="assets/css/animate.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="assets/css/font-lineicons.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="assets/css/style-bloggreen.css" id="mainstyle" type="text/css" media="all" />
+	<link rel="stylesheet" type="text/css" href="assets/css/circular-countdown.css"/>
+    
+    <!--[if lt IE 9]>
+        <script src="assets/js/html5.js"></script>
+        <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body id="index">
+    <!-- Preloader -->
+    <div id="mask">
+        <div id="loader"><img src="assets/img/preloader.gif" alt="preloader" /></div>
+    </div>
+    <header id="mobileheader" class="navigation-bar-header light visible-xs"></header>
+    <!-- Hero Section -->
+    <section id="hero" class="light">
+      <div class="container">
+        <div class="home-bg">
+          <nav class="navigation navigation-social">
+            <ul class="navigation-bar">
+              <li><a href="http://twitter.com/krankygeek"><span class="fa fa-twitter"></span></a>
+            </ul>
+          </nav>
+          <div class="hero-content text-center ">
+            <div class="hero-small">
+              <hr /><span>27. June in San Francisco, CA</span><hr />
+            </div>
+            <div class="hero-big">Kranky Geek WebRTC Show</div>
+            <div class="hero-normal"><strong>WebRTC</strong> for web developers</div>
+            <a href="http://tickets.krankygeek.com" target="_blank" class="btn btn-sm btn-primary"><i class="fa fa-play-circle fa-2x"></i> <span>Register</span></a>
+			<div class="hero-small">Scroll down to learn more</div>
+          </div>          
+        </div>
+      </div>
+    </section> 
+    <!-- End Hero Section -->
+    <!-- Header -->
+    <header id="header" class="navigation-bar-header light hidden-xs">
+      <div class="container">
+        <nav class="navigation">
+          <div class="navigation-txt visible-xs" data-toggle="dropdown">Home</div>
+          <button class="navigation-toggle visible-xs" type="button" data-toggle="dropdown">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <ul class="navigation-bar navigation-bar-left">
+		    <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#about">About</a></li>      
+            <li><a href="#speakers">Speakers</a></li>
+			<li><a href="#why-attend">Why attend?</a></li>
+            <li><a href="#sponsors">Sponsors</a></li>
+            <li><a href="#map">Location/Contact</a></li>
+            <li class="featured"><a href="http://tickets.krankygeek.com" target="_blank""><i class="fa fa-ticket fa-1x"></i>Register</a></li>
+          </ul>
+        </nav>
+      </div>      
+    </header>
+    <!-- End Header -->
+	
+	<!-- Schedule Section -->
+    <section id="schedule" class="section dark">
+      <div class="container">
+        <div class="icon-wrap"><span class="icon icon-active icon-text-hierarchy-07"></span></div>
+        <h3>Full schedule</h3>
+        <div class="sub-title">Registration starts at 11:00, please allow time for security clearance</div>
+        <br />
+        <br />
+        <section class="nav-tabs-default hidden-xs">
+          <!-- Parent Nav Tabs -->
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="#DayOne" data-toggle="tab">
+              <div class="title">Day 1</div>
+              <div class="subtitle">06/27/2014</div>
+            </a></li>
+          </ul>
+          
+          <!-- Parent Tab panes -->
+          <div class="tab-content">
+            <div class="tab-pane fade in active" id="DayOne">
+                
+                <!-- Child 1 Nav Tabs -->
+                <ul class="nav nav-tabs">
+                  <li class="active"><a href="#DayOne-1" data-toggle="tab">Top of the Mark</a></li>
+                </ul>
+                
+                <!-- Child 1 Tab panes -->
+                <div class="tab-content">
+                  <div class="tab-pane fade in active" id="DayOne-1">
+                    <div class="panel-group timeline-schedule" id="panelTimelineOne">
+				
+					<div class="panel panel-default">
+                        <div class="speaker-wrapper">
+                          <img src="assets/img/speaker/speaker-2.jpg" class="img-responsive img-circle" alt="speaker-2" />
+                        </div>
+                        <div class="panel-heading">
+                          <div class="panel-title">
+                            <div class="time"><i class="fa fa-clock-o"></i> 12:00 PM</div>
+                            <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#itemTwo" class="collapsed">
+                              Krank it up! Straight to some cool demos
+                              <div class="pull-right fa fa-angle-up"></div>
+                              <div class="pull-right fa fa-angle-down"></div>
+                            </a>
+                          </div>
+                        </div>
+                        <div id="itemTwo" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <article>
+                              <p>With the welcome stuff out of the way and before we get into the technical stuff, what are people <strong>already</strong> doing with WebRTC, some neat stuff out there you may not have seen, we'll take you on a quick tour of current WebRTC apps. Communications is going to be different in the future for sure.</p>
+                              <p class="author"><a href="#"><strong><i class="fa fa-user"></i> Chris Koehncke</strong></a></p>
+                            </article>
+                          </div>
+                        </div>
+                      </div>
+
+					<div class="panel panel-default">
+                        <div class="speaker-wrapper">
+                          <img src="assets/img/speaker/speaker-1.jpg" class="img-responsive img-circle" alt="speaker-3" />
+                        </div>
+                        <div class="panel-heading">
+                          <div class="panel-title">
+                            <div class="time"><i class="fa fa-clock-o"></i> 12:20 PM</div>
+                            <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#itemThree" class="collapsed">
+                              Baby Steps: A WebRTC Tutorial
+                              <div class="pull-right fa fa-angle-up"></div>
+                              <div class="pull-right fa fa-angle-down"></div>
+                            </a>
+                          </div>
+                        </div>
+                        <div id="itemThree" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <article>
+                              <p>Tsahi, is gonna make sure you've all got the basic fundamentals of WebRTC under your belt. It's a 101 tutorial, it's a baseline, may have heard it before but we want no one left behind. Already an expert? Then consider this a 20 minute nap time!</p>
+                              <p class="author"><a href="#"><strong><i class="fa fa-user"></i> Tsahi Levent-Levi</strong></a></p>
+                            </article>
+                          </div>
+                        </div>
+                      </div>		
+
+					  <div class="panel panel-default">
+                        <div class="speaker-wrapper">
+                          <img src="assets/img/speaker/speaker-7.jpg" class="img-responsive img-circle" alt="speaker-4" />
+                        </div>
+                        <div class="panel-heading">
+                          <div class="panel-title">
+                            <div class="time"><i class="fa fa-clock-o"></i> 12:40 PM</div>
+                            <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#itemFour" class="collapsed">
+                              WebRTC Cookbook: A look at development strategies
+                              <div class="pull-right fa fa-angle-up"></div>
+                              <div class="pull-right fa fa-angle-down"></div>
+                            </a>
+                          </div>
+                        </div>
+                        <div id="itemFour" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <article>
+                              <p>Hear first hand the choices & decisions an app dev faced with their WebRTC app, how they made them, what they did and what would they recommend you consider.</p>
+                              <p class="author"><a href="#"><strong><i class="fa fa-user"></i> Alex Gouaillard</strong></a></p>
+                            </article>
+                          </div>
+                        </div>
+                      </div>					  
+					  
+                      <div class="panel panel-default">
+                        <div class="speaker-wrapper">
+                          <img src="assets/img/speaker/speaker-8.jpg" class="img-responsive img-circle" alt="speaker-1" />
+                        </div>
+                        <div class="panel-heading">
+                          <div class="panel-title">
+                            <div class="time"><i class="fa fa-clock-o"></i> 1:00 PM</div>
+                            <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#itemOne">
+                              Grab some grub! Lunch is served
+                            </a>
+                          </div>
+                        </div>
+                        </div>
+                     	
+				  
+					  <div class="panel panel-default">
+                        <div class="speaker-wrapper">
+                          <img src="assets/img/speaker/speaker-10.jpg" class="img-responsive img-circle" alt="speaker-10" />
+                        </div>
+                        <div class="panel-heading">
+                          <div class="panel-title">
+                            <div class="time"><i class="fa fa-clock-o"></i> 1:40 PM</div>
+                            <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#itemFive" class="collapsed">
+                              Architectures for a kissass WebRTC application
+                              <div class="pull-right fa fa-angle-up"></div>
+                              <div class="pull-right fa fa-angle-down"></div>
+                            </a>
+                          </div>
+                        </div>
+                        <div id="itemFive" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <article>
+                              <p>The signaling piece for WebRTC isn't as complicated as it sounds but you do have some choices. Node.js seems to be the default framework for many, but there are others as well, and that's even before we fight over WebSocket, XHR & XMPP. This short talk should give you some ideas to think about.</p>
+                              <p class="author"><a href="#"><strong><i class="fa fa-user"></i> Tom Moor</strong></a></p>
+                            </article>
+                          </div>
+                        </div>
+                      </div>
+					  
+					  <div class="panel panel-default">
+                        <div class="speaker-wrapper">
+                          <img src="assets/img/speaker/speaker-0.jpg" class="img-responsive img-circle" alt="speaker-0" />
+                        </div>
+                        <div class="panel-heading">
+                          <div class="panel-title">
+                            <div class="time"><i class="fa fa-clock-o"></i> 2:00 PM</div>
+                            <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#itemSix" class="collapsed">
+                              SIP & VoIP: Don't dismiss this immediately
+                              <div class="pull-right fa fa-angle-up"></div>
+                              <div class="pull-right fa fa-angle-down"></div>
+                            </a>
+                          </div>
+                        </div>
+                        <div id="itemSix" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <article>
+                              <p>SIP or Session Initiation Protocol sounds like old timey talk, but there are some merits, particularly if you're thinking about Freeswitch or Asterisk as part of your overall solution</p>
+                              <p class="author"><a href="#"><strong><i class="fa fa-user"></i> Michael Lambert</strong></a></p>
+                            </article>
+                          </div>
+                        </div>
+                      </div>
+					  
+					  <div class="panel panel-default">
+                        <div class="speaker-wrapper">
+                          <img src="assets/img/speaker/speaker-4.jpg" class="img-responsive img-circle" alt="speaker-4" />
+                        </div>
+                        <div class="panel-heading">
+                          <div class="panel-title">
+                            <div class="time"><i class="fa fa-clock-o"></i> 2:40 PM</div>
+                            <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#itemEight" class="collapsed">
+                              WebRTC Services: Helper companies
+                              <div class="pull-right fa fa-angle-up"></div>
+                              <div class="pull-right fa fa-angle-down"></div>
+                            </a>
+                          </div>
+                        </div>
+                        <div id="itemEight" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <article>
+                              <p>An entire new generation of 'cloud' based services are emerging specifically for WebRTC. You don't have to do all the heavy lifting, companies are emerging to make life easier for STUN/TURN, transcoding, mixing. We'll answer the question what do you need to build and what can you easily buy.</p>
+                              <p class="author"><a href="#"><strong><i class="fa fa-user"></i> Badri Rajasekar</strong></a></p>
+                            </article>
+                          </div>
+                        </div>
+                      </div>
+
+					  <div class="panel panel-default">
+                        <div class="speaker-wrapper">
+                          <img src="assets/img/speaker/speaker-9.jpg" class="img-responsive img-circle" alt="speaker-4" />
+                        </div>
+                        <div class="panel-heading">
+                          <div class="panel-title">
+                            <div class="time"><i class="fa fa-clock-o"></i> 3:00 PM</div>
+                            <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#itemE11" class="collapsed">
+                              Break: Last one for the day - we're almost there                              
+                            </a>
+                          </div>
+                        </div>
+                      </div>					
+					  
+					    <div class="panel panel-default">
+                        <div class="speaker-wrapper">
+                          <img src="assets/img/speaker/speaker-0.jpg" class="img-responsive img-circle" alt="speaker-0" />
+                        </div>
+                        <div class="panel-heading">
+                          <div class="panel-title">
+                            <div class="time"><i class="fa fa-clock-o"></i> 3:20 PM</div>
+                            <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#itemNine" class="collapsed">
+                             How we implemented WebRTC into our app
+                              <div class="pull-right fa fa-angle-up"></div>
+                              <div class="pull-right fa fa-angle-down"></div>
+                            </a>
+                          </div>
+                        </div>
+                        <div id="itemNine" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <article>
+                              <p>Integrating WebRTC elements into your existing application. How we did it, what did we learn and what we're thinking for the future.</p>
+                              <p class="author"><a href="#"><strong><i class="fa fa-user"></i> Atlassian</strong></a></p>
+                            </article>
+                          </div>
+                        </div>
+                      </div>		
+					  
+					  <div class="panel panel-default">
+                        <div class="speaker-wrapper">
+                          <img src="assets/img/speaker/speaker-3.jpg" class="img-responsive img-circle" alt="speaker-3" />
+                        </div>
+                        <div class="panel-heading">
+                          <div class="panel-title">
+                            <div class="time"><i class="fa fa-clock-o"></i> 3:40 PM</div>
+                            <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#itemE14" class="collapsed">
+                              Google: Mobile WebRTC
+                              <div class="pull-right fa fa-angle-up"></div>
+                              <div class="pull-right fa fa-angle-down"></div>
+                            </a>
+                          </div>
+                        </div>
+                        <div id="itemE14" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <article>
+                              <p>The Google team will be front n' present during this event but it's time to listen up to where Google and the industry is attempting to drive the WebRTC standard. Mobile is a theme for 2014 and Google will share with the group the direction the industry is taking.</p>
+                              <p class="author"><a href="#"><strong><i class="fa fa-user"></i> Serge La Chapelle</strong></a></p>
+                            </article>
+                          </div>
+                        </div>
+                      </div>					   
+					  
+					  <div class="panel panel-default">
+                        <div class="speaker-wrapper">
+                          <img src="assets/img/speaker/speaker-6.jpg" class="img-responsive img-circle" alt="speaker-6" />
+                        </div>
+                        <div class="panel-heading">
+                          <div class="panel-title">
+                            <div class="time"><i class="fa fa-clock-o"></i> 4:20 PM</div>
+                            <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#itemTen" class="collapsed">
+                              The Data Channel: P2P exchange - some creative applications
+                              <div class="pull-right fa fa-angle-up"></div>
+                              <div class="pull-right fa fa-angle-down"></div>
+                            </a>
+                          </div>
+                        </div>
+                        <div id="itemTen" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <article>
+                              <p>The P2P data channel is a powerful element to WebRTC. Our speaker Abi Raji should know - his company was one of the first WebRTC acquisitions (by Yahoo). Abi will take us thru PeerCDN, a collobrative way to crowd source data for heavy traffic websites. He'll also detail a new side project - WebTorrents - using WebRTC to create an in-browser Bittorrent client.</p>
+                              <p class="author"><a href="#"><strong><i class="fa fa-user"></i> Abi Raji</strong></a></p>
+                            </article>
+                          </div>
+                        </div>
+                      </div>					   
+					  
+					  <div class="panel panel-default">
+                        <div class="speaker-wrapper">
+                          <img src="assets/img/speaker/speaker-9.jpg" class="img-responsive img-circle" alt="speaker-4" />
+                        </div>
+                        <div class="panel-heading">
+                          <div class="panel-title">
+                            <div class="time"><i class="fa fa-clock-o"></i> 4:40 PM</div>
+                            <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#itemE11" class="collapsed">
+                              Break: Last one for the day - we're almost there                              
+                            </a>
+                          </div>
+                        </div>
+                      </div>					   
+					  
+					  <div class="panel panel-default">
+                        <div class="speaker-wrapper">
+                          <img src="assets/img/speaker/speaker-5.jpg" class="img-responsive img-circle" alt="speaker-4" />
+                        </div>
+                        <div class="panel-heading">
+                          <div class="panel-title">
+                            <div class="time"><i class="fa fa-clock-o"></i> 5:00 PM</div>
+                            <a data-toggle="collapse" data-parent="#panelTimelineOne" href="#itemE12" class="collapsed">
+                              On-stage: Building a WebRTC app
+                              <div class="pull-right fa fa-angle-up"></div>
+                              <div class="pull-right fa fa-angle-down"></div>
+                            </a>
+                          </div>
+                        </div>
+                        <div id="itemE12" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <article>
+                              <p>Say it ain't so. We're going to build a real WebRTC app from start to finish on-stage live with no nets. We said it was simple, now we're going to show you.</p>
+                              <p class="author"><a href="#"><strong><i class="fa fa-user"></i> Tim Panton</strong></a></p>
+                            </article>
+                          </div>
+                        </div>
+                      </div>					   
+                      </div>
+					  
+                    </div>
+                  </div>
+                </div>
+                <div class="clearfix"></div>            
+            </div>
+        <div class="btn-wrapper">
+          <a href="#" class="btn btn-xs"><span class="icon icon-filetypes-11 icon-active"></span> <span class="btn-txt">Download schedule</span></a>
+        </div>
+      </div>
+    </section>
+    <!-- End Schedule Section -->
+			
+	<!-- Count down clock -->
+	<section id="stat" class="section light">
+      <div class="overlay"></div>
+      <div class="container">
+         <div class="row">
+		    <h3>Countdown to event</h3>
+			<div class="dark-wrapper pink">
+			<div class="inner clearfix">
+			<div class="countdown">
+			</div></div></div></div></div>
+	</section>
+    <!-- End Count down clock -->
+	
+    <!-- About Section -->
+    <section id="about" class="section dark">
+      <div class="container">
+	    <div class="icon-wrap"><span class="icon icon-active icon-multimedia-12"></span></div>
+        <h3>Using WebRTC today</h3>
+        <div class="sub-title">Get the info you need to implement <span class="highlight">your</span> application</div>
+        <br />
+        <br />
+        <section class="nav-tabs-simple">
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs nav-justified">
+            <li class="active"><a href="#htmlcss" data-toggle="tab"><i class="icon icon-chat-messages-01"></i> Topics</a></li>
+            <li><a href="#php" data-toggle="tab"><i class="icon icon-documents-bookmarks-12"></i> About us</a></li>
+          </ul>
+          
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div class="tab-pane fade in active" id="htmlcss">
+              <article class="row">
+                <div class="col-md-5 col-sm-5 animated hiding" data-animation="fadeInLeft" data-delay="500">
+                  <img class="img-responsive" src="assets/img/about-placeholder-starbucks.jpg" alt="starbuck" />
+                </div>
+                <div class="col-md-6 col-sm-6 text-left animated hiding" data-animation="fadeInRight" data-delay="500">
+                  <h6>What you will learn </h6>
+					<p>The purpose of this event is to <strong>jumpstart</strong> your knowledge about <span class="highlight">WebRTC </span> and provide you with relevant information to enable you to make the right choices in your development effort.</p>
+					<ul class="sub-list">
+						<li><i class="icon icon-education-science-03"></i> Basics & advanced WebRTC understanding</li>
+						<li><i class="icon icon-office-36"></i> Hear experiences of those who've build applications</li>
+						<li><i class="icon icon-arrows-13"></i> Mix with group interested in next gen communications</li>
+					</ul>
+				</div>
+              </article>
+            </div>
+            <div class="tab-pane fade" id="php">
+              <article class="row">
+                <div class="col-md-5 col-sm-5 animated hiding" data-animation="fadeInLeft" data-delay="500">
+                  <img class="img-responsive" src="assets/img/about-placeholder-iphone.jpg" alt="iphone" />
+                </div>
+                <div class="col-md-6 col-sm-6 text-left animated hiding" data-animation="fadeInRight" data-delay="500">
+                  <h6>About the Kranky Geek WebRTC event</h6>
+				 <p>Chris "Kranky" Koehncke (<a href="http://www.chriskranky.com" target="_blank">www.chriskranky.com</a>) and Tsahi Levi-Levent (<a href="http://www.bloggeek.me" target="_blank">bloggeek.me</a>) have been two passionate bloggers on the topic of <span class="highlight">WebRTC</span>.
+                 <p>Both are sought after speakers at WebRTC events around the world. However,we felt these events weren't inspiring a new era of thinking about communications nor the underlying power of <strong>WebRTC</strong> - they focus on VoIP instead of the web. This San Francisco event, is a first and is solely targeted to the HTML5 developer looking to learn more about WebRTC and create the inspiration for a next generation of web applications with a bi-directional communications path.</p>
+                </div>
+              </article></div>
+          </div>
+        </section>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+			
+	
+    
+    <!-- Speakers Section -->
+    <section id="speakers" class="section light">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="icon-wrap"><span class="icon icon-active icon-multimedia-12"></span></div>
+        <h3>Top speakers</h3>
+        <div class="sub-title">The <strong>ONE</strong> WebRTC event you don't wanna miss</div>
+        <br />
+        <br />
+        <section class="row">
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="speaker-item animated hiding" data-animation="fadeInUp" data-delay="0">
+              <div class="img-wrapper">
+                <img src="assets/img/speaker/speaker-1.jpg" class="img-responsive img-circle" alt="speaker-1" />
+              </div>
+              <div class="name">Tsahi Levent-Levi</div>
+              <div class="sub">Bloggeek.me</div>
+              <p class="small">A technologist at heart, with a passion for cooking, science fiction and a zest of WebRTC.</p>
+              <div class="social-link">
+                <a href="http://twitter.com/tsahil"><span class="fa fa-twitter"></span></a>
+                <a href="https://plus.google.com/+TsahiLeventLevi/posts"><span class="fa fa-google-plus"></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="speaker-item animated hiding" data-animation="fadeInUp" data-delay="500">
+              <div class="img-wrapper">
+                <img src="assets/img/speaker/speaker-2.jpg" class="img-responsive img-circle" alt="speaker-2" />
+              </div>
+              <div class="name">Chris Koehncke</div>
+              <div class="sub">Chriskranky.com</div>
+              <p class="small">Prolific writer & commenter on emerging communications technologies.</p>
+              <div class="social-link">
+                <a href="http://twitter.com/ckoehncke"><span class="fa fa-twitter"></span></a>
+                <a href="https://plus.google.com/+ChrisKoehncke/posts"><span class="fa fa-google-plus"></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix visible-xs"></div>
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="speaker-item animated hiding" data-animation="fadeInUp" data-delay="1000">
+              <div class="img-wrapper">
+                <img src="assets/img/speaker/speaker-3.jpg" class="img-responsive img-circle" alt="speaker-3" />
+              </div>
+              <div class="name">Serge Lachapelle</div>
+              <div class="sub">Google Group Product Manager</div>
+              <p class="small">Product manager for WebRTC @ Google</p>
+              <div class="social-link">
+                <a href="http://twitter.com/slac"><span class="fa fa-twitter"></span></a>
+                <a href="https://plus.google.com/+SergeLachapelleSweden"><span class="fa fa-google-plus"></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="speaker-item animated hiding" data-animation="fadeInUp" data-delay="1500">
+              <div class="img-wrapper">
+                <img src="assets/img/speaker/speaker-4.jpg" class="img-responsive img-circle" alt="speaker-4" />
+              </div>
+              <div class="name">Badri Rajasekar</div>
+              <div class="sub">CTO Tokbox</div>
+              <p class="small">Startup-aficionado, Artist, Photographer, Stanford football fan and excited about the pursuit of insights. </p>
+              <div class="social-link">
+                <a href="http://twitter.com/baddn"><span class="fa fa-twitter"></span></a>
+                <a href="#"><span class="fa fa-google-plus"></span></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="btn-wrapper">
+          <a href="speakers.html" class="btn btn-sm btn-default">See all speakers</a>
+        </div>
+      </div>
+    </section>
+    <!-- End Speakers Section -->
+	
+    <!--- Why Attend Section -->
+	<section id="why-attend" class="section dark">
+        <div class="container">
+        <div class="icon-wrap"><span class="icon icon-active icon-badges-votes-01"></span></div>
+        <h3>Why attend?</h3>
+        <div class="sub-title">Here's why you should attend <strong>this</strong> event</div>
+		<br/>
+          <article class="article-big">
+            <p class="big left">We've attended a lot of WebRTC events in the past year and we always felt something was missing. It was a classic Goldilocks problem, events were either to immersed in talking about standards & technology (or not enough). Too commercial with light n' fluffy content or too dark. Something was missing. We wanted to be inspired. </p>
+			<br/>
+			<p class="big left">After talking with others, we realized we're weren't alone in thinking this. The kind folks at Google echo'd some similar feelings and they urged us to up the game by putting together an event with topics that we wanted. Thus this Kranky Geek event was borne.</p>
+			<br/>
+			<p class="big left">The event on Friday, 27. June 2014 is neighboring the massive Google I/O conference so we're hoping you're in town and in the mood to learn more about WebRTC, what you can do with it, how to make it work for your application, hear what others have done and learn about the future direction of web communications. It's a lot to cover in a 1/2 day session, but we're aiming to inspire you.</p>
+          </article>
+      </div>
+    </section>
+    <!-- End Why Attend Section -->
+	
+<!-- Newsletter Section -->
+    <section id="newsletter" class="section light">
+      <div class="overlay"></div>
+      <div class="container">
+        <article class="article-big animated hiding" data-animation="fadeInDown" data-delay="0">
+          <h5>Free Newsletter on <strong>WebRTC</strong></h5>
+          <p>No Spam - only the <span class="highlight">latest news</span> and activities!</p>
+		  <p>A weekly & brief newsletter with all the latest news and activities on WebRTC. Be sure and subscribe, even if you can't attend this event.</p>
+          <form id="subscribe" class="form" action="http://webrtcweekly.us3.list-manage2.com/subscribe/post?u=18fb1adcfe2c4f0091aecb2fc&amp;id=1fbf39591d" method="post">
+            <div class="form-group form-inline">
+              <input type="email" class="form-control required" id="NewsletterEmail" name="NewsletterEmail" placeholder="your@email.com" /> 
+			  <input type="submit" class="btn btn-xs btn-default" value="Submit" />
+			  <span id="response">
+				<? require_once('assets/mailchimp/inc/store-address.php'); if($_GET['submit']){ echo storeAddress(); } ?>
+			  </span>
+            </div>
+           
+          </form>
+        </article>
+      </div>
+    </section>
+    <!-- End Newsletter Section -->
+	
+   
+    <!-- Sponsors Section -->
+    <section id="sponsors" class="section dark">
+      <div class="container">
+        <div class="icon-wrap"><span class="icon icon-active icon-documents-bookmarks-12"></span></div>
+        <h3>Sponsors</h3>
+        <div class="sub-title">Great thanks to these sponsors for their economic & intellectual contribution to this event.</div>
+		<br/>
+         <div class="row">
+          <ul class="list-inline">
+            <li><a href="http://www.atlassian.com/" target="_blank"><img src="assets/img/sponsor/sponsor-logo-1.jpg" alt="sponsor-1" /></a></li> 
+            <li><a href="http://www.webrtc.org/" target="_blank"><img src="assets/img/sponsor/sponsor-logo-2.jpg" alt="sponsor-2" /></a></li> 
+            <li><a href="http://www.tokbox.com/" target="_blank"><img src="assets/img/sponsor/sponsor-logo-3.jpg" alt="sponsor-3" /></a></li> 
+          </ul>
+		</div> 
+      </div>
+    </section>
+    <!-- End Sponsors Section -->
+	
+    <!-- Map Section -->
+    <section id="map" class="dark">
+		<div id="canvas-map"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 col-sm-7 animated hiding location" data-animation="fadeInLeft" data-delay="0">
+					<h3>Location</h3>
+						<ul itemscope="" itemtype="http://schema.org/PostalAddress">
+							<li itemprop="address"><i class="fa fa-map-marker highlight"></i>Google 6th floor </br>345 Spear St, San Francisco, CA
+							</br>Check with Greeter @ street level</li>
+							<li itemprop="email"><i class="fa fa-envelope highlight"></i>info@krankygeek.com</li>
+							<li itemprop="telephone"><i class="fa fa-phone highlight"></i>(415) 528-6048</li>
+							<li itemscope="" itemtype="http://schema.org/Event"><i class="fa fa-clock-o highlight"></i><time itemprop="startDate" datetime="2014-06-25T12:00">Friday 27. June - 12:00</time> - <time itemprop="endDate" datetime="2014-06-25T17:30">17:30</time></li>
+						</ul>
+				</div>
+			</div>
+		</div>
+    </section>
+    <!-- End Map Section -->
+    <footer id="footer">
+
+    </footer>
+    
+    <div class="back-to-top"><i class="fa fa-angle-up fa-3x"></i></div>
+
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="assets/js/jquery-1.11.0.min.js?ver=1"></script>
+    <![endif]-->  
+    <!--[if (gte IE 9) | (!IE)]><!-->  
+        <script type="text/javascript" src="assets/js/jquery-2.1.0.min.js?ver=1"></script>
+    <!--<![endif]-->  
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script> 
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.nav.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.appear.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.countTo.js"></script>
+    <script type="text/javascript" src="assets/js/waypoints.min.js"></script>
+    <script type="text/javascript" src="assets/js/waypoints-sticky.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.fancybox.js"></script>
+	<script type="text/javascript" src="assets/mailchimp/js/mailing-list.js"></script>
+    <script type="text/javascript" src="assets/js/scripts.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.circular-countdown.js"></script>
+	<!-- <a title="Real Time Web Analytics" href="http://clicky.com/100730919"><img alt="Real Time Web Analytics" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
+	<script src="//static.getclicky.com/js" type="text/javascript"></script>
+	<script type="text/javascript">try{ clicky.init(100730919); }catch(e){}</script>
+	<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100730919ns.gif" /></p></noscript> -->
+	
+	<!-- Create Circular Countdown Timer -->
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$(".countdown").circularCountdown({
+					startDate:"2014/01/01 12:30:00",
+					endDate:"2014/06/27 12:00:00",				
+					timeZone:-7,	//Time zone of California
+					
+					//Margin between circles
+					margin:15,
+					
+					//Diameters
+					dayDiameter:120,
+					hourDiameter:120,
+					minuteDiameter:120,
+					secondDiameter:120,
+					
+					//Circle BG width
+					dayBgWidth:20,
+					hourBgWidth:20,
+					minuteBgWidth:20,
+					secondBgWidth:20,
+					
+					//Circle width
+					dayCircleWidth:20,
+					hourCircleWidth:20,
+					minuteCircleWidth:20,
+					secondCircleWidth:20,
+					
+					//Circle BG color
+					dayBgColor:"#159615",
+					hourBgColor:"#159615",
+					minuteBgColor:"#159615",
+					secondBgColor:"#159615",
+					
+					//Circle color
+					dayCircleColor:"#fff",
+					hourCircleColor:"#fff",
+					minuteCircleColor:"#fff",
+					secondCircleColor:"#fff",
+					
+					//Text font size
+					dayTextFontSize:12,
+					hourTextFontSize:12,
+					minuteTextFontSize:12,
+					secondTextFontSize:12,
+					
+					//Counter font color
+					dayCounterFontColor:"#fff",
+					hourCounterFontColor:"#fff",
+					minuteCounterFontColor:"#fff",
+					secondCounterFontColor:"#fff",
+					
+					//Text font color
+					dayTextFontColor:"#fff",
+					hourTextFontColor:"#fff",
+					minuteTextFontColor:"#fff",
+					secondTextFontColor:"#fff",
+					
+					//Texts top margin
+					dayTextMarginTop:3,
+					hourTextMarginTop:3,
+					minuteTextMarginTop:3,
+					secondTextMarginTop:3
+				});
+			});
+		</script>	
+
+</body>
+</html>
