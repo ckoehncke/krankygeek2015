@@ -1,0 +1,33 @@
+
+*** These modified files were found in JOE when it aborted on Wed Aug 19 11:48:27 2015
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+.git/COMMIT_EDITMSG
+
+*** File '.git/COMMIT_EDITMSG'
+http://52.20.146.142:8080/index.html?confId=1234http://52.20.146.142:8080/index.html?confId=1234it's not an aut
+:q:wqwq
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: Chris Koehncke <ckoehncke@richard-stockton.dreamhost.com>
+#
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   ../../../.revision
+#	modified:   ../../css/style-bloggreen.min.css
+#	new file:   ../speaker/speaker-28.jpg
+#	new file:   ../speaker/speaker-29.jpg
+#	new file:   freshdesklogo.png
+#	new file:   liveopslogo.png
+#
+
+*** These modified files were found in JOE when it aborted on Wed Aug 19 11:51:28 2015
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+.git/COMMIT_EDITMSG
